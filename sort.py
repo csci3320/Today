@@ -46,33 +46,28 @@ def merge_sort(original_list):
 def merge_sort_recursive(list):
   if(len(list) <= 1):
     return list
+  
   middle = len(list)//2
-  first_half = list[:middle]
-  second_half=list[middle:]
-  print(first_half)
-  print(second_half)
-  first_half = merge_sort_recursive(first_half)
-  second_half = merge_sort_recursive(second_half)
+  first_half = merge_sort_recursive(list[:middle])
+  second_half = merge_sort_recursive(list[middle:])
+  
   final = []
-  while len(first_half) > 0 and len(second_half) > 0:
+  
+  while first_half and second_half:
     if first_half[0] < second_half[0]:
-      item = first_half.pop(0)
-      final.append(item)
+      final.append(first_half.pop(0))
     else:
-      item = second_half.pop(0)
-      final.append(item)
+      final.append(second_half.pop(0))
 
-  while len(first_half) > 0 and len(second_half) == 0:
-    item = first_half.pop(0)
-    final.append(item)
-  while len(second_half) > 0 and len(first_half) == 0:
-    item = second_half.pop(0)
-    final.append(item)
+  while first_half and not second_half:
+    final.append(first_half.pop(0))
+  while not first_half and second_half:
+    final.append(second_half.pop(0))
   
   return final
     
 
-# print(bubble_sort(l))
-# print(selection_sort(l))
-# print(insertion_sort(l))
+print(bubble_sort(l))
+print(selection_sort(l))
+print(insertion_sort(l))
 print(merge_sort(l))
