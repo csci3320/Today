@@ -1,11 +1,30 @@
 # Today
 
+Resources to help out with teaching CSCI 3320
+
 ## Link to first day starter GitHub project
 
 https://classroom.github.com/a/VCqoGZQx
 
-## Log N
+## Non-polynomial Big-Os
+
+### Log N
 https://www.youtube.com/watch?v=dL-13NZAXuE Where in the World in Carmen San Diego
 
-## N!
+### N Log N
+
+Example results running sorting website with quick sort
+
+  |Size   |Steps   |N Log N|N^2        |
+  |-------|--------|-------|-----------|
+  | 16    | 142    | 19    | 256       |
+  | 32    | 362    | 48    | 1,024     |
+  | 64    | 822    | 116   | 4,096     |
+  | 128   | 1,986  | 270   | 16,384    |
+  | 256   | 5,085  | 617   | 65,536    |
+  | 512   | 10,433 | 1,387 | 262,144   |
+  | 1,024 | 23,334 | 3,083 | 1,048,576 |
+
+
+### N!
 https://www.youtube.com/watch?v=ZCPN9SfdH7c&t=35s Infinity War all possible outcomes
