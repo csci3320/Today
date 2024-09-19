@@ -2,6 +2,8 @@
 
 Resources to help out with teaching CSCI 3320
 
+[2024 Lecture Notes, etc.](https://unomail-my.sharepoint.com/:f:/g/personal/bricks_unomaha_edu/EsAYtw248SdLidw2Fqt-FSwBhazRIeOJRZfXmnGkqx19mA?e=l9P552)
+
 ## Link to first day starter GitHub project
 
 https://classroom.github.com/a/VCqoGZQx
