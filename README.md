@@ -30,3 +30,6 @@ Example results running sorting website with quick sort
 
 ### N!
 https://www.youtube.com/watch?v=ZCPN9SfdH7c&t=35s Infinity War all possible outcomes
+
+# Teasers
+- [Conversation Tree](https://www.youtube.com/watch?v=l8F-qqxGPNQ)
