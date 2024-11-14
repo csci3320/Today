@@ -35,3 +35,7 @@ https://www.youtube.com/watch?v=ZCPN9SfdH7c&t=35s Infinity War all possible outc
 - [Conversation Tree](https://www.youtube.com/watch?v=l8F-qqxGPNQ)
 - [Binary Search Tree, Doom Engine](https://doomwiki.org/wiki/Doom_rendering_engine)
 - [Binary Search Trees in Unity Terrain Engine](https://www.youtube.com/watch?v=0TzgFwDmbGg)
+
+# AVL Demo
+[UCSF AVL Demo](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)
+
